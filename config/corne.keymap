@@ -48,7 +48,7 @@
             bindings = <
 &tp TAB EQUAL  &kp W  &kp L  &kp Y              &kp P                        &kp B        &kp Z        &kp F         &kp O      &kp U      &kp SQT     &tp MINUS NON_US_BACKSLASH
 &kp LCTRL      &kp C  &kp R  &kp S              &kp T                        &kp G        &kp M        &kp N         &kp E      &kp I      &kp A       &lt 1 SEMICOLON
-&kp LSHFT      &kp Q  &kp J  &kp V              &kp D                        &kp K        &kp X        &kp H         &kp SLASH  &kp COMMA  &kp PERIOD  &kp RIGHT_SHIFT
+&kp LSHFT      &kp Q  &kp J  &kp V              &kp D                        &kp K        &kp X        &kp H         &kp SLASH  &kp COMMA  &kp PERIOD  &lt 4 RIGHT_SHIFT
                              &tp LGUI LEFT_ALT  &tp BACKSPACE LC(BACKSPACE)  &kp SPACE    &lt 1 ENTER  &lt 2 ESCAPE  &lt 3 DEL
             >;
         };
@@ -61,7 +61,7 @@
             //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
 
             bindings = <
-&trans  &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET       &trans  &trans          &trans            &trans         &trans        &kp C_RESET
+&trans  &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET       &trans  &trans          &trans            &trans         &trans        &trans
 &trans  &kp SEMI          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL               &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LEFT_WIN  &trans
 &trans  &kp PERIOD        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH    &trans  &trans          &trans            &kp RIGHT_ALT  &trans        &trans
                                         &kp N9        &kp N0        &tp MINUS SPACE         &to 0   &trans          &trans
@@ -70,7 +70,7 @@
 
         layer_FUN {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8      &kp F9   &kp PRINTSCREEN     &trans  &trans          &trans            &trans         &trans        &kp C_RESET
+&trans  &kp F12  &kp F7  &kp F8      &kp F9   &kp PRINTSCREEN     &trans  &trans          &trans            &trans         &trans        &trans
 &trans  &kp F11  &kp F4  &kp F5      &kp F6   &kp SCROLLLOCK      &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LEFT_WIN  &trans
 &trans  &kp F10  &kp F1  &kp F2      &kp F3   &kp K_PLAY_PAUSE    &trans  &trans          &trans            &kp RIGHT_ALT  &trans        &trans
                          &kp K_MENU  &kp TAB  &kp SPACE           &to 0   &trans          &trans
@@ -88,10 +88,10 @@
 
         layer_NAV {
             bindings = <
-&kp C_RESET  &trans        &trans         &trans          &trans          &trans             &kp LC(LS(Z))  &kp LC(Z)       &kp K_CUT       &kp LC(C)     &kp LC(V)  &trans
-&trans       &kp LEFT_GUI  &kp LEFT_ALT   &kp LCTRL       &kp LEFT_SHIFT  &trans             &kp CLCK       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-&trans       &msc SCRL_UP  &kp RIGHT_ALT  &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT    &kp INSERT     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans
-                                          &trans          &trans          &trans             &lt 0 ENTER    &kp ESCAPE      &kp DEL
+&trans  &trans        &trans         &trans          &trans          &trans             &kp LC(LS(Z))  &kp LC(Z)       &kp K_CUT       &kp LC(C)     &kp LC(V)  &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT   &kp LCTRL       &kp LEFT_SHIFT  &trans             &kp CLCK       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &msc SCRL_UP  &kp RIGHT_ALT  &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT    &kp INSERT     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans
+                                     &trans          &trans          &trans             &lt 0 ENTER    &kp ESCAPE      &kp DEL
             >;
         };
     };
