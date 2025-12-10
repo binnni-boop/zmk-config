@@ -20,19 +20,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        tg {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
-        };
-
-        gn {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <17 19>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
